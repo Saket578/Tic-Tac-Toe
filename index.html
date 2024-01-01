@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="content">
+    <center>
+        <p id="heading">Tic Tac Toe Game</p>
+        <hr>
+        <div id="buttons">
+            <div class="btn_container"><button id="easy" class="button" onclick="easy()">Easy Mode</button></div>
+            <div class="btn_container"><button id="hard" class="button" onclick="hard()">Hard Mode</button></div>
+        </div>
+        <br><br>
+        <div id="result" class="result"></div>
+        <br><br>
+        <div id="board">
+            <div id="row" class="this_one"> 
+                <p id="one" class="one"></p>
+                <p id="two" class="one"></p>
+                <p id="three" class="one"></p>
+            </div>
+            <div id="row">
+                <p id="four" class="one"></p>
+                <p id="five" class="one"></p>
+                <p id="six" class="one"></p>
+            </div>
+            <div id="row">
+                <p id="seven" class="one"></p>
+                <p id="eight" class="one"></p>
+                <p id="nine" class="one"></p>
+            </div>
+        </div>
+    </center>
+</div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
